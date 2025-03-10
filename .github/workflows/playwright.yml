@@ -28,10 +28,10 @@ jobs:
         run: npx playwright install
 
       - name: Run Playwright tests
-        run: npx playwright test
+        run: npx playwright test --reporter=html
 
       - name: Upload Playwright report
-        if: always()
+        if: always()  # This ensures the report is uploaded even if tests fail
         uses: actions/upload-artifact@v4
         with:
           name: playwright-report
