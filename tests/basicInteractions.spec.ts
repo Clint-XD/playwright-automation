@@ -3,7 +3,7 @@ import { chromium, test, expect } from "@playwright/test";
 let browser, context, page;
 
 test.beforeAll(async () => {
-    browser = await chromium.launch({ headless: false }); // Set headless true for CI
+    browser = await chromium.launch({ headless: true }); // Set headless true for CI
 });
 
 test.beforeEach(async () => {
