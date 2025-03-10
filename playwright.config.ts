@@ -4,7 +4,7 @@ const config: PlaywrightTestConfig = {
     testMatch: ["tests/basicInteractions.spec.ts"],
 
     use: {
-        headless: false,
+        headless: true,
         screenshot: "only-on-failure", 
         video: "retain-on-failure"
     },
