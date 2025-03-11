@@ -1,0 +1,21 @@
+{
+    "NewCustomer": {
+        "newCustomerCard": "(//div[@class='card-body p-4'])[1]",
+        "newCustomerTextHeader": "//h2[normalize-space(text())='New Customer']",
+        "registerAccountText": "//strong[normalize-space(text())='Register Account']",
+        "newCustomerTextBody": "(//div[@class='card-body p-4']//p)[2]",
+        "continueButton": ".btn btn-primary"
+    },
+
+    "ReturningCustomer": {
+        "returningCustomerCard": ".card-body p-4",
+        "returningCustomerTextHeader": "//h2[normalize-space(text())='Returning Customer']",
+        "returningCustomerP": "//strong[normalize-space(text())='I am a returning customer']",
+        "emailAddressLabel": "label[for='input-email']",
+        "emailAddressPlaceholder": "input[name='email']",
+        "passwordLabel": "label[for='input-password']",
+        "passwordPlaceholder": "input[type='password']",
+        "forgottenPasswordButton": "//input[@class='form-control']/following-sibling::a[1]",
+        "loginButton": "input[type='submit']"
+    }
+}

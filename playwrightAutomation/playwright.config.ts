@@ -1,7 +1,7 @@
 import type { PlaywrightTestConfig } from "@playwright/test";
 
 const config: PlaywrightTestConfig = {
-    testMatch: ["tests/basicInteractions.spec.ts"],
+    testMatch: ["tests/loginPage.spec.ts"],
 
     use: {
         headless: true,
