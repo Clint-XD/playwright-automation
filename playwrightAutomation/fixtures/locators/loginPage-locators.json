@@ -8,7 +8,7 @@
     },
 
     "ReturningCustomer": {
-        "returningCustomerCard": ".card-body p-4",
+        "returningCustomerCard": "(//div[@class='card mb-4']//div)[2]",
         "returningCustomerTextHeader": "//h2[normalize-space(text())='Returning Customer']",
         "returningCustomerP": "//strong[normalize-space(text())='I am a returning customer']",
         "emailAddressLabel": "label[for='input-email']",
@@ -17,5 +17,9 @@
         "passwordPlaceholder": "input[type='password']",
         "forgottenPasswordButton": "//input[@class='form-control']/following-sibling::a[1]",
         "loginButton": "input[type='submit']"
+    },
+
+    "HomePage": {
+        "myAccountHeader": "div#content > div > h2"
     }
 }

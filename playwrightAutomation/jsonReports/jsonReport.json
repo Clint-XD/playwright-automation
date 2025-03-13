@@ -69,42 +69,181 @@
       "specs": [],
       "suites": [
         {
-          "title": "User Authentication",
+          "title": "Login Page Tests",
           "file": "tests/loginPage.spec.ts",
-          "line": 5,
+          "line": 12,
           "column": 6,
-          "specs": [
+          "specs": [],
+          "suites": [
             {
-              "title": "should login successfully with valid credentials",
-              "ok": true,
-              "tags": [],
-              "tests": [
+              "title": "UI Elements Validation",
+              "file": "tests/loginPage.spec.ts",
+              "line": 47,
+              "column": 8,
+              "specs": [
                 {
-                  "timeout": 30000,
-                  "annotations": [],
-                  "expectedStatus": "passed",
-                  "projectId": "",
-                  "projectName": "",
-                  "results": [
+                  "title": "should display all new customer section elements correctly",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
                     {
-                      "workerIndex": 0,
-                      "status": "passed",
-                      "duration": 3301,
-                      "errors": [],
-                      "stdout": [],
-                      "stderr": [],
-                      "retry": 0,
-                      "startTime": "2025-03-11T23:40:19.622Z",
-                      "attachments": []
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 21,
+                          "status": "passed",
+                          "duration": 3673,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "✅ New Customer Text Header is visible\n"
+                            },
+                            {
+                              "text": "✅ Register Account Text is visible\n"
+                            },
+                            {
+                              "text": "✅ Register Account Paragraph is visible\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-03-13T22:00:30.776Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
                     }
                   ],
-                  "status": "expected"
+                  "id": "44e3148f0a60a1214e19-bc84322d9323050b22be",
+                  "file": "tests/loginPage.spec.ts",
+                  "line": 48,
+                  "column": 9
+                },
+                {
+                  "title": "should display all returning customer section elements correctly",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 21,
+                          "status": "passed",
+                          "duration": 3184,
+                          "errors": [],
+                          "stdout": [
+                            {
+                              "text": "✅ Returning Customer Card is visible\n"
+                            },
+                            {
+                              "text": "✅ Returning Customer Text Header is visible\n"
+                            },
+                            {
+                              "text": "✅ Returning Customer Paragraph is visible\n"
+                            },
+                            {
+                              "text": "✅ Email Address Text Label is visible\n"
+                            },
+                            {
+                              "text": "✅ Password Text Label is visible\n"
+                            }
+                          ],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-03-13T22:00:34.668Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "44e3148f0a60a1214e19-2b5390a2c7e4a10410d0",
+                  "file": "tests/loginPage.spec.ts",
+                  "line": 52,
+                  "column": 9
                 }
-              ],
-              "id": "44e3148f0a60a1214e19-a4b4f77f8b876b6aa004",
+              ]
+            },
+            {
+              "title": "Authentication",
               "file": "tests/loginPage.spec.ts",
-              "line": 21,
-              "column": 9
+              "line": 57,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should login successfully with valid credentials",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 21,
+                          "status": "passed",
+                          "duration": 4674,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-03-13T22:00:37.859Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "44e3148f0a60a1214e19-d961cd5d34b1c5b256d0",
+                  "file": "tests/loginPage.spec.ts",
+                  "line": 58,
+                  "column": 9
+                },
+                {
+                  "title": "should maintain login state after page refresh",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "",
+                      "projectName": "",
+                      "results": [
+                        {
+                          "workerIndex": 21,
+                          "status": "passed",
+                          "duration": 4985,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2025-03-13T22:00:42.544Z",
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "44e3148f0a60a1214e19-65e3f60d8112084ce548",
+                  "file": "tests/loginPage.spec.ts",
+                  "line": 76,
+                  "column": 9
+                }
+              ]
             }
           ]
         }
@@ -113,9 +252,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-11T23:40:18.310Z",
-    "duration": 4765.215000000002,
-    "expected": 1,
+    "startTime": "2025-03-13T22:00:29.344Z",
+    "duration": 18446.96999999974,
+    "expected": 4,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
