@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "C:\\Users\\TVSTARTUP-Clint\\Desktop\\Automation\\playwrightAutomation\\playwright.config.ts",
-    "rootDir": "C:/Users/TVSTARTUP-Clint/Desktop/Automation/playwrightAutomation",
+    "configFile": "C:\\Users\\TVSTARTUP-Clint\\Desktop\\Automation\\playwright.config.ts",
+    "rootDir": "C:/Users/TVSTARTUP-Clint/Desktop/Automation",
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
@@ -39,13 +39,13 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "C:/Users/TVSTARTUP-Clint/Desktop/Automation/playwrightAutomation/test-results",
+        "outputDir": "C:/Users/TVSTARTUP-Clint/Desktop/Automation/test-results",
         "repeatEach": 1,
         "retries": 0,
         "metadata": {},
         "id": "",
         "name": "",
-        "testDir": "C:/Users/TVSTARTUP-Clint/Desktop/Automation/playwrightAutomation",
+        "testDir": "C:/Users/TVSTARTUP-Clint/Desktop/Automation",
         "testIgnore": [],
         "testMatch": [
           "tests/loginPage.spec.ts"
@@ -62,22 +62,22 @@
   },
   "suites": [
     {
-      "title": "tests\\loginPage.spec.ts",
-      "file": "tests/loginPage.spec.ts",
+      "title": "playwrightAutomation\\tests\\loginPage.spec.ts",
+      "file": "playwrightAutomation/tests/loginPage.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
           "title": "Login Page Tests",
-          "file": "tests/loginPage.spec.ts",
+          "file": "playwrightAutomation/tests/loginPage.spec.ts",
           "line": 12,
           "column": 6,
           "specs": [],
           "suites": [
             {
               "title": "UI Elements Validation",
-              "file": "tests/loginPage.spec.ts",
+              "file": "playwrightAutomation/tests/loginPage.spec.ts",
               "line": 47,
               "column": 8,
               "specs": [
@@ -94,9 +94,9 @@
                       "projectName": "",
                       "results": [
                         {
-                          "workerIndex": 5,
+                          "workerIndex": 0,
                           "status": "passed",
-                          "duration": 3705,
+                          "duration": 3483,
                           "errors": [],
                           "stdout": [
                             {
@@ -111,15 +111,15 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-03-18T20:48:50.298Z",
+                          "startTime": "2025-03-18T23:36:59.835Z",
                           "attachments": []
                         }
                       ],
                       "status": "expected"
                     }
                   ],
-                  "id": "44e3148f0a60a1214e19-bc84322d9323050b22be",
-                  "file": "tests/loginPage.spec.ts",
+                  "id": "f91213686c11d0054a07-cce9c8c29c60baf0a66b",
+                  "file": "playwrightAutomation/tests/loginPage.spec.ts",
                   "line": 48,
                   "column": 9
                 },
@@ -136,9 +136,9 @@
                       "projectName": "",
                       "results": [
                         {
-                          "workerIndex": 5,
+                          "workerIndex": 0,
                           "status": "passed",
-                          "duration": 3418,
+                          "duration": 3032,
                           "errors": [],
                           "stdout": [
                             {
@@ -159,15 +159,15 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-03-18T20:48:54.254Z",
+                          "startTime": "2025-03-18T23:37:03.593Z",
                           "attachments": []
                         }
                       ],
                       "status": "expected"
                     }
                   ],
-                  "id": "44e3148f0a60a1214e19-2b5390a2c7e4a10410d0",
-                  "file": "tests/loginPage.spec.ts",
+                  "id": "f91213686c11d0054a07-492bc15986b4978055f8",
+                  "file": "playwrightAutomation/tests/loginPage.spec.ts",
                   "line": 52,
                   "column": 9
                 }
@@ -175,7 +175,7 @@
             },
             {
               "title": "Authentication",
-              "file": "tests/loginPage.spec.ts",
+              "file": "playwrightAutomation/tests/loginPage.spec.ts",
               "line": 57,
               "column": 8,
               "specs": [
@@ -192,22 +192,22 @@
                       "projectName": "",
                       "results": [
                         {
-                          "workerIndex": 5,
+                          "workerIndex": 0,
                           "status": "passed",
-                          "duration": 4454,
+                          "duration": 4596,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-03-18T20:48:57.682Z",
+                          "startTime": "2025-03-18T23:37:06.631Z",
                           "attachments": []
                         }
                       ],
                       "status": "expected"
                     }
                   ],
-                  "id": "44e3148f0a60a1214e19-d961cd5d34b1c5b256d0",
-                  "file": "tests/loginPage.spec.ts",
+                  "id": "f91213686c11d0054a07-120603cfcc47539d73c2",
+                  "file": "playwrightAutomation/tests/loginPage.spec.ts",
                   "line": 58,
                   "column": 9
                 },
@@ -224,9 +224,9 @@
                       "projectName": "",
                       "results": [
                         {
-                          "workerIndex": 5,
+                          "workerIndex": 0,
                           "status": "passed",
-                          "duration": 4184,
+                          "duration": 4312,
                           "errors": [],
                           "stdout": [
                             {
@@ -235,16 +235,16 @@
                           ],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-03-18T20:49:02.143Z",
+                          "startTime": "2025-03-18T23:37:11.232Z",
                           "attachments": []
                         }
                       ],
                       "status": "expected"
                     }
                   ],
-                  "id": "44e3148f0a60a1214e19-08d583a080fd78eb86b7",
-                  "file": "tests/loginPage.spec.ts",
-                  "line": 61,
+                  "id": "f91213686c11d0054a07-586b1917e6b546b58848",
+                  "file": "playwrightAutomation/tests/loginPage.spec.ts",
+                  "line": 62,
                   "column": 9
                 },
                 {
@@ -260,23 +260,23 @@
                       "projectName": "",
                       "results": [
                         {
-                          "workerIndex": 5,
+                          "workerIndex": 0,
                           "status": "passed",
-                          "duration": 4602,
+                          "duration": 4342,
                           "errors": [],
                           "stdout": [],
                           "stderr": [],
                           "retry": 0,
-                          "startTime": "2025-03-18T20:49:06.337Z",
+                          "startTime": "2025-03-18T23:37:15.550Z",
                           "attachments": []
                         }
                       ],
                       "status": "expected"
                     }
                   ],
-                  "id": "44e3148f0a60a1214e19-65e3f60d8112084ce548",
-                  "file": "tests/loginPage.spec.ts",
-                  "line": 69,
+                  "id": "f91213686c11d0054a07-de08505ac4c3af4de3d2",
+                  "file": "playwrightAutomation/tests/loginPage.spec.ts",
+                  "line": 70,
                   "column": 9
                 }
               ]
@@ -288,8 +288,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-03-18T20:48:48.779Z",
-    "duration": 22494.412999998778,
+    "startTime": "2025-03-18T23:36:58.590Z",
+    "duration": 21610.66200000001,
     "expected": 5,
     "skipped": 0,
     "unexpected": 0,

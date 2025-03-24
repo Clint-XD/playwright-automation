@@ -63,15 +63,11 @@ import {
         //   await expect(page.locator('h1:has-text("My Account")')).toBeVisible();
       });
   
-      // test("should show error message with invalid credentials", async () => {
-      //   await loginPage.login("invalid@email.com", "wrongpassword");
-  
-      //   // Verify error message
-      //   await expect(page.locator(".alert-danger")).toBeVisible();
-      //   await expect(page.locator(".alert-danger")).toContainText(
-      //     "Warning: No match for E-Mail Address and/or Password."
-      //   );
-      // });
+      test("should show error message with invalid credentials", async () => {
+
+        await loginPage.validateInvalidLogin("sample@email.com", "samplepassword");
+        await loginPage.login("invalid@email.com", "wrongpassword");
+      });
   
       test("should maintain login state after page refresh", async () => {
        await loginPage.checkLoginState(userEmail, userPassword);

@@ -1,0 +1,4 @@
+{
+    "loginErrorMessage": "div.alert.alert-danger.alert-dismissible",
+    "homePageURL": "https://ecommerce-playground.lambdatest.io/index.php?route=account/account"
+}

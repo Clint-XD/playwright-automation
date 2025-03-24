@@ -20,6 +20,7 @@
     },
 
     "HomePage": {
-        "myAccountHeader": "div#content > div > h2"
+        "myAccountHeader": "div#content > div > h2",
+        "loginErrorMessage": "div.alert.alert-danger.alert-dismissible"
     }
 }

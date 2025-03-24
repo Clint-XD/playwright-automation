@@ -6,7 +6,9 @@ const config: PlaywrightTestConfig = {
     use: {
         headless: true,
         screenshot: "only-on-failure", 
-        video: "retain-on-failure"
+        video: "retain-on-failure",
+        viewport: null,
+        baseURL: 'https://ecommerce-playground.lambdatest.io',
     },
     retries: 0,
 
